@@ -1,0 +1,188 @@
+dan mata mee chat eke una hamada deyak ganama ketiyen vishthara karanna new chat ekakata yanna api gawa thibba folder structure ekata api aluthin add karapu file thuth include karala aye structure ekati anthimata complete karapu step eka and next karanna thiyena step ekayi mention karala msg eka ewanna ok 
+
+rules = 1. mokak hari file ekak update karaddi ee file ekata adala code eka full ewanna monada man update karanna gihin errors enna balanawa wadi nisa.
+
+2. oya mata dena code walata saha karanna kiyana dewal mata pahadiliwa kiyanna.
+
+3. mee ewana msg eka copy karanna puluwan vidiyata ewanna 
+
+4. hamawelema eka step ekak eka new chat ekaka continue karanna one step eka saha ee step ekata adala errors thuth fix karala ee step eka complete unata passe new chat ekata yamu kiyanna.
+
+5. thawa eka step ekak loku part walata kadanna epa wadima part 5 kata wage kadanna ok.
+
+6. hama step ekak iwara unama mata kiyanna full project eke 100% ta kiyak iwarada kiyala ok.
+
+
+
+
+
+CURRENT PROJECT STRUCTURE (FINAL)
+
+deal-bazaar/
+├─ .next/
+├─ node_modules/
+├─ prisma/
+│  └─ schema.prisma
+│
+├─ public/
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+│
+├─ src/
+│
+│  ├─ app/
+│  │  ├─ account/
+│  │  │  ├─ addresses/
+│  │  │  │  └─ page.tsx
+│  │  │  ├─ profile/
+│  │  │  │  └─ page.tsx
+│  │  │  ├─ wishlist/
+│  │  │  │  └─ page.tsx
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ cart/
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ checkout/
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ compare/
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ order-success/
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ orders/
+│  │  │  ├─ [orderNumber]/
+│  │  │  │  ├─ not-found.tsx
+│  │  │  │  └─ page.tsx
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ product/
+│  │  │  └─ [id]/
+│  │  │     └─ page.tsx
+│  │  │
+│  │  ├─ shop/
+│  │  │  └─ page.tsx
+│  │  │
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  └─ page.tsx
+│  │
+│  │
+│  ├─ components/
+│  │
+│  │  ├─ account/
+│  │  │  ├─ AccountDashboard.tsx
+│  │  │  ├─ AccountLayout.tsx
+│  │  │  ├─ AccountSidebar.tsx
+│  │  │  ├─ AccountTabs.tsx
+│  │  │  ├─ AddressesPageView.tsx
+│  │  │  ├─ OrderCard.tsx
+│  │  │  ├─ OrderDetailsView.tsx
+│  │  │  ├─ OrdersList.tsx
+│  │  │  ├─ ProfilePageView.tsx
+│  │  │  └─ WishlistPageView.tsx
+│  │
+│  │  ├─ admin/
+│  │
+│  │  ├─ cart/
+│  │  │  ├─ CartDrawer.tsx
+│  │  │  ├─ CartDrawerItem.tsx
+│  │  │  ├─ CartItemList.tsx
+│  │  │  └─ CartSummary.tsx
+│  │
+│  │  ├─ checkout/
+│  │  │  ├─ CheckoutForm.tsx
+│  │  │  ├─ OrderSummary.tsx
+│  │  │  └─ PaymentMethods.tsx
+│  │
+│  │  ├─ compare/
+│  │  │  └─ ComparePageView.tsx
+│  │
+│  │  ├─ home/
+│  │  │  ├─ BrandStrip.tsx
+│  │  │  ├─ FeaturedCategories.tsx
+│  │  │  ├─ FeaturedProducts.tsx
+│  │  │  ├─ FlashDeals.tsx
+│  │  │  ├─ HeroSection.tsx
+│  │  │  ├─ PromoBanners.tsx
+│  │  │  └─ TrustSection.tsx
+│  │
+│  │  ├─ layout/
+│  │  │  ├─ Footer.tsx
+│  │  │  ├─ Header.tsx
+│  │  │  └─ MobileBottomNav.tsx
+│  │
+│  │  ├─ product/
+│  │  │  ├─ ProductGallery.tsx
+│  │  │  ├─ ProductInfo.tsx
+│  │  │  └─ RelatedProducts.tsx
+│  │
+│  │  ├─ seller/
+│  │
+│  │  ├─ shared/
+│  │  │  ├─ CategoryCard.tsx
+│  │  │  ├─ CompareBar.tsx
+│  │  │  ├─ CountdownBox.tsx
+│  │  │  ├─ EmptyState.tsx
+│  │  │  ├─ ProductCard.tsx
+│  │  │  ├─ PromoCard.tsx
+│  │  │  ├─ SectionHeading.tsx
+│  │  │  └─ ToastProvider.tsx
+│  │
+│  │  ├─ shop/
+│  │  │  ├─ CompareDrawer.tsx
+│  │  │  ├─ QuickViewModal.tsx
+│  │  │  ├─ ShopProductGrid.tsx
+│  │  │  ├─ ShopSidebar.tsx
+│  │  │  └─ ShopToolbar.tsx
+│  │
+│  │
+│  ├─ constants/
+│  │  ├─ home.ts
+│  │  └─ index.ts
+│  │
+│  ├─ data/
+│  │  └─ products.ts
+│  │
+│  ├─ hooks/
+│
+│  ├─ lib/
+│  │  ├─ auth/
+│  │  ├─ db/
+│  │  ├─ helpers/
+│  │  └─ utils/
+│  │     └─ cn.ts
+│  │
+│  ├─ stores/
+│
+│  ├─ styles/
+│
+│  ├─ types/
+│  │  └─ index.ts
+│  │
+│  └─ validators/
+│
+│
+├─ .env
+├─ .gitignore
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ eslint.config.mjs
+├─ gpt_codes
+├─ next-env.d.ts
+├─ next.config.ts
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ prisma.config.ts
+├─ README.md
+└─ tsconfig.json
+
+
+c77fd9ea-efff-49f1-ad42-c6866312c487
